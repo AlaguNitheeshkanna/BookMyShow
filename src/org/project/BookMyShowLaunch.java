@@ -10,7 +10,7 @@ public class BookMyShowLaunch {
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\tharu\\eclipse-workspace-1\\BookMyShoww\\Driver\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
-		driver.manage().window().maximize();
+
 		driver.get("https://in.bookmyshow.com/explore/home/chennai");
         
 		WebElement movie = driver.findElement(By.xpath("(//div[@class='sc-7o7nez-0 lkwOqB'])[2]"));
